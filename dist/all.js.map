@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts.js"],"names":["sound","Howl","src","play"],"mappings":";;AAAA;;AAEA,IAAIA,KAAK,GAAG,IAAIC,YAAJ,CAAS;AACnBC,EAAAA,GAAG,EAAE,CAAC,qBAAD;AADc,CAAT,CAAZ;AAIAF,KAAK,CAACG,IAAN","file":"all.js","sourcesContent":["import {Howl} from 'howler';\n\nvar sound = new Howl({\n  src: ['loops/nautilus.aiff']\n});\n\nsound.play();"]}
